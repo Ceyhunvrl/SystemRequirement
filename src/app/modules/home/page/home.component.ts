@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component} from '@angular/core';
 import { Observable } from 'rxjs';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 
@@ -17,18 +17,27 @@ export class HomeComponent {
   constructor(
     private modalService: NgbModal,
     private projectService: ProjectService
-  ) {}
+  ) {
 
-  openMyModal() {
-    const modalRef = this.modalService.open(MyModalComponent);
-    modalRef.componentInstance.id = 1;
-    modalRef.result.then(
-      result => {
-        console.log(result);
-      },
-      error => {
-        console.log(error);
-      }
-    );
   }
+  ngOnInit(){
+
+  }
+  myFunction(){
+    debugger;
+  }
+  // openMyModal() {
+  //   const modalRef = this.modalService.open(MyModalComponent);
+  //   modalRef.componentInstance.id = 1;
+  //   modalRef.result.then(
+  //     result => {
+  //       console.log(result);
+  //     },
+  //     error => {
+  //       console.log(error);
+  //     }
+  //   );
+  // }
+  
 }
+

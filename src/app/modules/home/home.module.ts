@@ -8,13 +8,15 @@ import { ProjectItemComponent } from './page/project-item/project-item.component
 import { ProjectDetailsComponent } from './page/project-details/project-details.component';
 
 import { HomeRoutingModule } from './home.routing';
+import { DenemeComponent } from './page/deneme/deneme.component';
 
 @NgModule({
   declarations: [
     HomeComponent,
     MyModalComponent,
     ProjectItemComponent,
-    ProjectDetailsComponent
+    ProjectDetailsComponent,
+    DenemeComponent
   ],
   imports: [SharedModule, NgxMasonryModule, HomeRoutingModule],
   exports: [],
