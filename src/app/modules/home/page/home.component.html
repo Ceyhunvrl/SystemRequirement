@@ -1,28 +1,27 @@
-<!-- <div id="content">
-  <div>
+
+  <!-- <div>
     <button style="float: right" class="btn btn-primary" (click)="openMyModal()">
       Open Modal
     </button>
 
     <h1>Projects</h1>
+  </div> -->
+  <div id="search">
+    <!-- Load icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+    <!-- The form -->
+    <form class="example" action="action_page.php">
+      <input type="text" placeholder="Search Apps.." name="search">
+      <button type="submit" onclick="myFunction()"><i class="fa fa-search"></i></button>
+    </form>
   </div>
-
+  <div id="content">
   <ngx-masonry>
     <div ngxMasonryItem class="masonry-item" *ngFor="let project of projects$ | async">
       <app-project-item [project]="project"></app-project-item>
    </div>
   </ngx-masonry>
-</div> -->
-
-
-<div id="content">
-<!-- Load icon library -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<!-- The form -->
-<form class="example" action="action_page.php">
-  <input type="text" placeholder="Search Apps.." name="search">
-  <button type="submit" onclick="myFunction()"><i class="fa fa-search"></i></button>
-</form>
 </div>
+
 

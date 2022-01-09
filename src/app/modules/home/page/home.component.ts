@@ -5,6 +5,8 @@ import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { ProjectService } from '@data/service/project.service';
 import { Project } from '@data/schema/project';
 import { MyModalComponent } from '../modal/my-modal.component';
+import { NgxMasonryOptions } from 'ngx-masonry';
+
 
 @Component({
   selector: 'app-home',
@@ -13,7 +15,8 @@ import { MyModalComponent } from '../modal/my-modal.component';
 })
 export class HomeComponent {
   projects$: Observable<Project[]> = this.projectService.getAll();
-
+  masonryOptions:NgxMasonryOptions
+  
   constructor(
     private modalService: NgbModal,
     private projectService: ProjectService
@@ -24,7 +27,6 @@ export class HomeComponent {
 
   }
   myFunction(){
-    debugger;
   }
   // openMyModal() {
   //   const modalRef = this.modalService.open(MyModalComponent);
