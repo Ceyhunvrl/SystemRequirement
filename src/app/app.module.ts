@@ -15,6 +15,8 @@ import { AuthModule } from '@modules/auth/auth.module';
 import { AuthLayoutComponent } from './layout/auth-layout/auth-layout.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import { NgxMasonryModule } from 'ngx-masonry';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -37,7 +39,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     // app
     AppRoutingModule,
 
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    
+    NgxMasonryModule
   ],
   providers: [],
   bootstrap: [AppComponent]
