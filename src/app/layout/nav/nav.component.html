@@ -3,11 +3,9 @@
     <mat-toolbar color="primary">
       <div class="container">
         <span class="branding spacer center d-none d-sm-inline d-md-none">
-          Angular Folder Structure
-        </span>
+          System Requirements </span>
         <span class="branding spacer d-none d-md-inline">
-          Angular Folder Structure
-        </span>
+          System Requirements </span>
         <span class="d-none d-md-inline">
           <button mat-button class="nav-button" *ngFor="let item of navItems" [routerLink]="item.link"
             routerLinkActive="active">
@@ -17,11 +15,11 @@
           <mat-slide-toggle [checked]="isDarkTheme$ | async" (change)="toggleTheme($event.checked)">Change Theme
           </mat-slide-toggle>
         </span>
-        <div style="float: right;">
+        <!-- <div style="float: right;">
           <a [href]="repoUrl" target="_blank">Fork on GitHub
             <fa-icon [icon]="['fab','github']"></fa-icon>
           </a>
-        </div>
+        </div> -->
       </div>
     </mat-toolbar>
   </div>
