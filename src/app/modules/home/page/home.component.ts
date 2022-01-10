@@ -1,11 +1,12 @@
-import { Component} from '@angular/core';
+import { Component, OnInit} from '@angular/core';
 import { Observable } from 'rxjs';
-import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
-
+// import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { ProjectService } from '@data/service/project.service';
 import { Project } from '@data/schema/project';
+
 import { MyModalComponent } from '../modal/my-modal.component';
 import { NgxMasonryOptions } from 'ngx-masonry';
+
 
 
 @Component({
@@ -13,12 +14,12 @@ import { NgxMasonryOptions } from 'ngx-masonry';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
-export class HomeComponent {
+export class HomeComponent implements OnInit {
   projects$: Observable<Project[]> = this.projectService.getAll();
   masonryOptions:NgxMasonryOptions
   
   constructor(
-    private modalService: NgbModal,
+    // private modalService: NgbModal,
     private projectService: ProjectService
   ) {
 
@@ -26,8 +27,7 @@ export class HomeComponent {
   ngOnInit(){
 
   }
-  myFunction(){
-  }
+
   // openMyModal() {
   //   const modalRef = this.modalService.open(MyModalComponent);
   //   modalRef.componentInstance.id = 1;
@@ -40,6 +40,5 @@ export class HomeComponent {
   //     }
   //   );
   // }
-  
 }
 
