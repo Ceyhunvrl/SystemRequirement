@@ -1,30 +1,26 @@
-import { Component} from '@angular/core';
+import { Component, OnInit} from '@angular/core';
 import { Observable } from 'rxjs';
-import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
-
+// import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { ProjectService } from '@data/service/project.service';
 import { Project } from '@data/schema/project';
-import { MyModalComponent } from '../modal/my-modal.component';
+// import { MyModalComponent } from '../modal/my-modal.component';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
-export class HomeComponent {
+export class HomeComponent implements OnInit {
   projects$: Observable<Project[]> = this.projectService.getAll();
 
   constructor(
-    private modalService: NgbModal,
+    // private modalService: NgbModal,
     private projectService: ProjectService
   ) {
 
   }
   ngOnInit(){
 
-  }
-  myFunction(){
-    debugger;
   }
   // openMyModal() {
   //   const modalRef = this.modalService.open(MyModalComponent);
@@ -38,6 +34,5 @@ export class HomeComponent {
   //     }
   //   );
   // }
-  
 }
 

@@ -1,13 +1,113 @@
-<div class="jumbotron" id="content">
-  <h1>
-    Contact Angular Folder Structure
-  </h1>
+<div class = "space" style="background-color: #303030;">
 
-  <p>
-    The best way to contact this project is by
-    <a href="https://github.com/mathisGarberg/angular-folder-structure/issues">
-      opening an issue
-    </a> on the repository.
-  </p>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>
+      .container {
+        position: relative;
+        width: 50%;
+        margin-bottom: 100px;
+      }
+      
+      .image {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+      
+      .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color:#303030;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        -webkit-transform: scale(0);
+        -ms-transform: scale(0);
+        transform: scale(0);
+        -webkit-transition: .3s ease;
+        transition: .3s ease;
+      }
+      
+      .container:hover .overlay {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+      }
+      
+      .text {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      </style>
+      </head>
 
-</div>
+    <body>
+    
+    
+    <!-- <p>Hover over the image to see the effect.</p> -->
+
+
+    <h2 class="title">Ekran Kartı</h2>  
+
+    <div class="container">
+ 
+      <img src="https://www.pcworld.com/wp-content/uploads/2021/09/7j8a3205-100895097-orig.jpg?quality=50&strip=all" alt="Avatar" class="image">
+      <div class="overlay">
+        <div class="text">2080 Super</div>
+        <!-- 2080 Super yerine datadaki ekran karti ismi yazacak -->
+      </div>
+    </div>
+
+
+    <h2>İşlemci</h2>
+    <div class="container">
+
+      <img src="https://fdn.gsmarena.com/imgroot/news/21/10/intel-12th-gen/-1200/gsmarena_001.jpg" alt="Avatar" class="image">
+      <div class="overlay">
+        <div class="text">İntel Core i7</div>
+        <!-- 2080 Super yerine datadaki ekran karti ismi yazacak -->
+      </div>
+    </div>
+
+
+    <h2>RAM</h2>
+    <div class="container">
+
+      <img src="data:image/jpeg;base64,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" alt="Avatar" class="image">
+      <div class="overlay">
+        <div class="text">12 GB</div>
+        <!-- 2080 Super yerine datadaki ekran karti ismi yazacak -->
+      </div>
+    </div>
+
+
+    <h2>Depolama Alani</h2>
+    <div class="container">
+
+      <img src="https://www.longlinememory.com/wp-content/uploads/2020/10/isletim-sistemi-cesitleri-nelerdir.jpg" alt="Avatar" class="image">
+      <div class="overlay">
+        <div class="text">Windows 11</div>
+        <!-- 2080 Super yerine datadaki ekran karti ismi yazacak  / Resim değişecek-->
+      </div>
+    </div>
+
+    
+    </body>
+
+   
+  </div>
+
+
+
+
+
