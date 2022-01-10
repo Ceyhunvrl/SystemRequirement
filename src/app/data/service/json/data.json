@@ -1,34 +1,64 @@
 {
   "projects": [
     {
+      "id": 0,
+      "thumbnail": "https://cdn.cloudflare.steamstatic.com/steam/apps/730/header.jpg?t=1641233427",
+      "title": "Counter-Strike: Global Offensive",
+      "description": "Counter-Strike: Global Offensive (CS: GO), 19 yıl önce ilk çıktığında öncülük ettiği takım tabanlı aksiyon oyununu bir üst seviyeye taşıyor. CS:GO yeni haritalar, karakterler, silahlar ve oyun modları, ayrıca klasik CS içeriğinin (de_dust2 vb.) güncellenmiş sürümlerini sunuyor.",
+      "requirementproc": "İşlemci: Intel® Core™ 2 Duo E6600 veya AMD Phenom™ X3 8750",
+      "requirementram":"Bellek: 2 GB RAM",
+      "requirementmb": "Ekran Kartı: Ekran kartı 256 MB ya da daha üstü belleğe sahip olmalı ve Pixel Shader 3.0 desteğine sahip DirectX 9 uyumlu olmalıdır.",
+      "requirementstorage":"Depolama: 15 GB kullanılabilir alan"
+    },
+    {
       "id": 1,
-      "thumbnail": "https://images.unsplash.com/photo-1520769669658-f07657f5a307?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
-      "title": "Visit Norway",
-      "description": "Kongeriket Norge er et nordisk, europeisk land og en selvstendig stat vest på Den skandinaviske halvøy. Geografisk sett er landet langt og smalt. På den langstrakte kysten mot Nord-Atlanteren befinner Norges vidkjente fjorder seg. Kongeriket Norge omfatter, i tillegg til fastlandet, Jan Mayen og Svalbard"
+      "thumbnail": "https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg?t=1639608963",
+      "title": "Dota 2",
+      "description": "Her gün, dünya çapındaki milyonlarca oyuncu yüzden fazla Dota kahramanından birisiyle savaşa giriyor. Oynama süreniz ister 10 saati isterse 1000 saati bulsun, her zaman keşfedilecek yeni bir şeyler vardır. Düzenli güncellemelerle sürekli değişen ve evrilen oynanış, özellikler ve kahramanlar sayesinde Dota 2 sürekli olarak değişmektedir.",
+      "requirementproc": "İşlemci: Intel Dual Core veya AMD 2,8 GHz",
+      "requirementram":"Bellek: 4 GB RAM",
+      "requirementmb": "Ekran Kartı: NVIDIA GeForce 8600/9600GT, ATI/AMD Radeon HD2600/3600",
+      "requirementstorage":"Depolama: 15 GB kullanılabilir alan"
     },
     {
       "id": 2,
-      "thumbnail": "https://images.unsplash.com/photo-1521109762031-b71a005c25b7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80",
-      "title": "Visit Norway",
-      "description": "Kongeriket Norge er et nordisk, europeisk land og en selvstendig stat vest på Den skandinaviske halvøy. Geografisk sett er landet langt og smalt. På den langstrakte kysten mot Nord-Atlanteren befinner Norges vidkjente fjorder seg. Kongeriket Norge omfatter, i tillegg til fastlandet, Jan Mayen og Svalbard"
+      "thumbnail": "https://cdn.cloudflare.steamstatic.com/steam/apps/578080/header.jpg?t=1640056613",
+      "title": "PUBG: BATTLEGROUNDS",
+      "description": "PLAYERUNKNOWN'S BATTLEGROUNDS, oyunun sonunda hayatta kalmayı başarabilen tek bir oyuncunun kazanabildiği ve oyuncu topluluklarının görüşlerinin toplanarak ortaya çıkardığı bir oyundur. Tüm oyuncular oyuna eşit şartlarda, kelimenin tam manasıyla hiç bir şeyleri olmadan başlarlar; haritanın çeşitli yerlerinde bulunan silah & ekipman ve gereçleri toplayarak tek başlarına hayatta kalma mücadelesi verirler.",
+      "requirementproc": "İşlemci: Intel Core i5-4430 / AMD FX-6300",
+      "requirementram":"Bellek: 8 GB RAM",
+      "requirementmb": "Ekran Kartı: NVIDIA GeForce GTX 960 2GB / AMD Radeon R7 370 2GB",
+      "requirementstorage":"Depolama: 40 GB kullanılabilir alan"
     },
     {
       "id": 3,
-      "thumbnail": "https://images.unsplash.com/photo-1531504060587-e6811129c0f2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80",
-      "title": "Visit Norway",
-      "description": "Kongeriket Norge er et nordisk, europeisk land og en selvstendig stat vest på Den skandinaviske halvøy. Geografisk sett er landet langt og smalt. På den langstrakte kysten mot Nord-Atlanteren befinner Norges vidkjente fjorder seg. Kongeriket Norge omfatter, i tillegg til fastlandet, Jan Mayen og Svalbard"
+      "thumbnail": "https://cdn.cloudflare.steamstatic.com/steam/apps/1172470/header.jpg?t=1638900075",
+      "title": "Apex Legends",
+      "description": "Güçlü yeteneklere sahip efsanevi karakterlerin Frontier’ın sınırlarında şöhrete ve ganimetlere ulaşmak için savaştığı, ücretsiz oynanabilen* Kahraman nişancı oyunu Apex Legends’ı kendi yönteminizle fethedin.",
+      "requirementproc": "İşlemci: AMD FX 4350 or Equivalent, Intel Core i3 6300 or Equivalent",
+      "requirementram":"Bellek: 6 GB RAM",
+      "requirementmb": "Ekran Kartı: AMD Radeon™ HD 7730, NVIDIA GeForce® GT 640",
+      "requirementstorage":"Depolama: 56 GB kullanılabilir alan"
     },
     {
       "id": 4,
-      "thumbnail": "https://images.unsplash.com/photo-1475066392170-59d55d96fe51?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2134&q=80",
-      "title": "Visit Norway",
-      "description": "Kongeriket Norge er et nordisk, europeisk land og en selvstendig stat vest på Den skandinaviske halvøy. Geografisk sett er landet langt og smalt. På den langstrakte kysten mot Nord-Atlanteren befinner Norges vidkjente fjorder seg. Kongeriket Norge omfatter, i tillegg til fastlandet, Jan Mayen og Svalbard"
+      "thumbnail": "https://cdn.cloudflare.steamstatic.com/steam/apps/271590/header.jpg?t=1618856444",
+      "title": "Grand Theft Auto V",
+      "description": "Grand Theft Auto V'in PC sürümü, oyunculara 4k ve ötesinde çözünürlükle ve saniyede 60 kare tazeleme hızıyla Los Santos ve Blaine County dünyasını keşfetme fırsatını sunuyor.",
+      "requirementproc": "İşlemci: Intel Core 2 Dört Çekirdekli İşlemci Q6600 @ 2.40GHz (4 CPUs) / AMD Phenom 9850 Dört Çekirdekli İşlemci (4 CPUs) @ 2.5GHz",
+      "requirementram":"Bellek: 4 GB RAM",
+      "requirementmb": "Ekran Kartı: NVIDIA 9800 GT 1GB / AMD HD 4870 1GB (DX 10, 10.1, 11)",
+      "requirementstorage":"Depolama: 72 GB kullanılabilir alan"
     },
     {
       "id": 5,
-      "thumbnail": "https://images.unsplash.com/photo-1518124880777-cf8c82231ffb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1404&q=80",
-      "title": "Visit Norway",
-      "description": "Kongeriket Norge er et nordisk, europeisk land og en selvstendig stat vest på Den skandinaviske halvøy. Geografisk sett er landet langt og smalt. På den langstrakte kysten mot Nord-Atlanteren befinner Norges vidkjente fjorder seg. Kongeriket Norge omfatter, i tillegg til fastlandet, Jan Mayen og Svalbard"
+      "thumbnail": "https://cdn.cloudflare.steamstatic.com/steam/apps/252490/header.jpg?t=1640216853",
+      "title": "Rust",
+      "description": "Rust'taki tek amaç hayatta kalmaktır.Bunu yapmak için açlık, susuzluk ve soğuk gibi engellerin üstesinden gelmeniz gerekiyor. Ateş yakın. Barınak inşa edin. Et için hayvanları öldürün. Kendinizi diğer oyunculardan koruyun ve et için onları öldürün. Diğer oyuncularla ittifak kurun ve bir kasaba oluşturun.",
+      "requirementproc": "İşlemci: Intel Core i7-3770 / AMD FX-9590 or better",
+      "requirementram":"Bellek: 10 GB RAM",
+      "requirementmb": "Ekran Kartı: GTX 670 2GB / AMD R9 280 better",
+      "requirementstorage":"Depolama: 20 GB kullanılabilir alan"
     }
   ]
 }

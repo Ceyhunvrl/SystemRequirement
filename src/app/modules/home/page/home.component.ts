@@ -3,7 +3,11 @@ import { Observable } from 'rxjs';
 // import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { ProjectService } from '@data/service/project.service';
 import { Project } from '@data/schema/project';
-// import { MyModalComponent } from '../modal/my-modal.component';
+
+import { MyModalComponent } from '../modal/my-modal.component';
+import { NgxMasonryOptions } from 'ngx-masonry';
+
+
 
 @Component({
   selector: 'app-home',
@@ -12,7 +16,8 @@ import { Project } from '@data/schema/project';
 })
 export class HomeComponent implements OnInit {
   projects$: Observable<Project[]> = this.projectService.getAll();
-
+  masonryOptions:NgxMasonryOptions
+  
   constructor(
     // private modalService: NgbModal,
     private projectService: ProjectService
@@ -22,6 +27,7 @@ export class HomeComponent implements OnInit {
   ngOnInit(){
 
   }
+
   // openMyModal() {
   //   const modalRef = this.modalService.open(MyModalComponent);
   //   modalRef.componentInstance.id = 1;

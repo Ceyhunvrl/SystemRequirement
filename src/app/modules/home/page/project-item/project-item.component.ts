@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input ,OnInit} from '@angular/core';
 
 import { Project } from '@data/schema/project';
 
@@ -11,4 +11,8 @@ export class ProjectItemComponent {
   @Input() project: Project;
 
   flipped = false;
+
+  ngOnInit(){
+    console.log(this.project)
+  }
 }
