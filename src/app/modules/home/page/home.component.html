@@ -1,27 +1,33 @@
-
-  <!-- <div>
-    <button style="float: right" class="btn btn-primary" (click)="openMyModal()">
-      Open Modal
-    </button>
-
-    <h1>Projects</h1>
-  </div> -->
-  <div id="search">
-    <!-- Load icon library -->
+ <div id="search">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  
-    <!-- The form -->
-    <form class="example" action="action_page.php">
-      <input type="text" placeholder="Search Apps.." name="search">
-      <button type="submit" onclick="myFunction()"><i class="fa fa-search"></i></button>
-    </form>
+
+    <div class="ng-autocomplete">
+      <ng-autocomplete placeholder="Uygulama seçiniz.."
+        [data]="reposList"
+        [searchKeyword]="'name'"
+        (selected)='selectEvent($event)'
+        (inputChanged)='onChangeSearch($event)'
+        (inputFocused)='onFocused($event)'
+        [itemTemplate]="itemTemplate"
+        [notFoundTemplate]="notFoundTemplate">                                 
+      </ng-autocomplete>
+      
+      <ng-template #itemTemplate let-item>
+      <a [innerHTML]="item.name"></a>
+      </ng-template>
+      
+      <ng-template #notFoundTemplate let-notFound>
+      <div [innerHTML]="notFound"></div>
+      </ng-template>
+      </div>
   </div>
   <div id="content">
-  <ngx-masonry>
+  <ngx-masonry> 
     <div ngxMasonryItem class="masonry-item" *ngFor="let project of projects$ | async">
       <app-project-item [project]="project"></app-project-item>
    </div>
   </ngx-masonry>
 </div>
+
 
 

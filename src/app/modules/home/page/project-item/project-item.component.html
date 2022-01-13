@@ -13,8 +13,8 @@
         </p>
       </mat-card-content>
       <mat-card-actions>
-        <button class="active" mat-button (click)='flipped = !flipped'>READ MORE</button>
-        <button class="active" mat-button [routerLink]="['/dashboard/projects/', project.id]">{{ project.id + 1 }}</button>
+        <button class="active" mat-button (click)='flipped = !flipped'>SHOW SYSTEM DETAIL</button>
+        <!-- <button class="active" mat-button [routerLink]="['/dashboard/projects/', project.id]">{{ project.id + 1 }}</button> -->
       </mat-card-actions>
     </mat-card>
     <mat-card class="custom-card back" *ngIf="flipped">
@@ -38,7 +38,7 @@
         </p>
       </mat-card-content>
       <mat-card-actions>
-        <button class="active" mat-button (click)='flipped = !flipped'>READ LESS</button>
+        <button class="active" mat-button (click)='flipped = !flipped'>SHOW LESS</button>
       </mat-card-actions>
     </mat-card>
   </div>

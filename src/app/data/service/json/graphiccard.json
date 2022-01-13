@@ -1,0 +1,741 @@
+{
+    "div": [
+
+            {
+              "@class": "5",
+              "#text": "GeForce RTX 3080 Ti Laptop GPU *"
+            },
+            {
+              "@class": "5",
+              "#text": "GeForce RTX 3080 Laptop GPU"
+            },
+            {
+              "@class": "5",
+              "#text": "GeForce RTX 3070 Ti Laptop GPU *"
+            },
+            {
+              "@class": "5",
+              "#text": "RTX A5000 Laptop GPU"
+            },
+            {
+              "@class": "5",
+              "#text": "Quadro RTX 6000 (Laptop)"
+            },
+            {
+              "@class": "5",
+              "#text": "Radeon RX 6850M XT *"
+            },
+            {
+              "@class": "5",
+              "#text": "Radeon RX 6800M *"
+            },
+            {
+              "@class": "5",
+              "#text": "GeForce RTX 2080 Super Mobile"
+            },
+            {
+              "@class": "5",
+              "#text": "GeForce RTX 3070 Laptop GPU"
+            },
+            {
+              "@class": "5",
+              "#text": "RTX A4000 Laptop GPU"
+            },
+            {
+              "@class": "5",
+              "#text": "Radeon RX 6800S *"
+            },
+            {
+              "@class": "5",
+              "#text": "Radeon RX 6700M *"
+            },
+            {
+              "@class": "5",
+              "#text": "M1 Max 32-Core GPU *"
+            },
+            {
+              "@class": "5",
+              "#text": "GeForce RTX 2080 Mobile"
+            },
+            {
+              "@class": "5",
+              "#text": "GeForce RTX 2070 Mobile"
+            },
+
+        
+
+            {
+              "@class": "4",
+              "#text": "Quadro RTX 5000 (Laptop)"
+            },
+            {
+              "@class": "4",
+              "#text": "RTX A3000 Laptop GPU"
+            },
+            {
+              "@class": "4",
+              "#text": "M1 Max 24-Core GPU *"
+            },
+            {
+              "@class": "4",
+              "#text": "GeForce RTX 3060 Laptop GPU"
+            },
+            {
+              "@class": "4",
+              "#text": "GeForce RTX 2070 Super Mobile"
+            },
+            {
+              "@class": "4",
+              "#text": "GeForce RTX 2080 Super Max-Q"
+            },
+            {
+              "@class": "4",
+              "#text": "Quadro RTX 5000 Max-Q *"
+            },
+            {
+              "@class": "4",
+                "#text": "GeForce RTX 2080 Max-Q"
+            },
+            {
+              "@class": "4",
+            
+                "#text": "GeForce GTX 1080 Mobile"
+            },
+            {
+              "@class": "4",
+              "#text": "M1 Pro 14-Core GPU *"
+            },
+            {
+              "@class": "4",
+              "#text": "Quadro RTX 4000 (Laptop)"
+            },
+            {
+              "@class": "4",
+              "#text": "Radeon RX 6650M XT *"
+            },
+            {
+              "@class": "4",
+              "#text": "Radeon RX 6650M *"
+            },
+            {
+              "@class": "4",
+              "#text": "Radeon RX 6600M *"
+            },
+            {
+              "@class": "4",
+              "#text": "Radeon RX 6700S *"
+            },
+            {
+              "@class": "4",
+              "#text": "Radeon PRO W6600M *"
+            },
+            {
+              "@class": "4",
+              "#text": "GeForce RTX 2070 Super Max-Q"
+            },
+            {
+              "@class": "4",
+              "#text": "Quadro RTX 4000 Max-Q *"
+            },
+            {
+              "@class": "4",
+              "#text": "M1 Pro 16-Core GPU *"
+            },
+            {
+              "@class": "4",
+              "#text": "GeForce RTX 2070 Max-Q *"
+            },
+            {
+              "@class": "4",
+              "#text": "Radeon RX 6600S *"
+            },
+            {
+              "@class": "4",
+              "#text": "Quadro P5200"
+            },
+            {
+              "@class": "4",
+              "#text": "Quadro RTX 3000 (Laptop) *"
+            },
+            {
+              "@class": "4",
+               "#text": "GeForce RTX 2060 Mobile"
+              
+            },
+            {
+              "@class": "4",
+              "#text": "Quadro RTX 3000 Max-Q *"
+            },
+            {
+              "@class": "4",
+                "#text": "GeForce GTX 1080 Max-Q" 
+            },
+            {
+              "@class": "4",
+              
+                "#text": "GeForce GTX 1070 Mobile"
+            },
+            {
+              "@class": "4",
+              
+                "#text": "GeForce RTX 2060 Max-Q"
+            
+            },
+            {
+              "@class": "4",
+              "#text": "Quadro P4200"
+            },
+            {
+              "@class": "4",
+              "#text": "RTX A2000 Laptop GPU"
+            },
+            {
+              "@class": "4",
+            
+                "#text": "Radeon RX 5600M"
+            
+            },
+            {
+              "@class": "4",
+             
+                "#text": "Quadro P5000"
+            
+            },
+            {
+              "@class": "4",
+             
+                "#text": "GeForce GTX 1660 Ti Mobile"
+            
+            },
+            {
+              "@class": "4",
+              "#text": "GeForce RTX 3050 Ti Laptop GPU *"
+            },
+            {
+              "@class": "4",
+              
+                "#text": "GeForce GTX 1070 Max-Q"
+        
+            },
+            {
+              "@class": "4",
+              
+                "#text": "Radeon Pro 5600M"
+            },
+            {
+              "@class": "4",
+              "#text": "GeForce GTX 1660 Ti Max-Q *"
+            },
+            {
+              "@class": "4",
+              "#text": "Quadro P5000 Max-Q *"
+            },
+            {
+              "@class": "4",
+              "#text": "GeForce RTX 3050 Laptop GPU *"
+            },
+            {
+              "@class": "4",
+              "#text": "Radeon RX 6500M *"
+            },
+            {
+              "@class": "4",
+             
+                "#text": "GeForce GTX 980 (Laptop)"
+        
+            },
+            {
+              "@class": "4",
+             
+                "#text": "Quadro M5500"
+    
+            },
+            {
+              "@class": "4",
+              "#text": "Quadro P4000"
+            },
+            {
+              "@class": "4",
+              "#text": "Quadro T2000 (Laptop) *"
+            },
+            {
+              "@class": "4",
+            
+                "#text": "GeForce GTX 1060 Mobile"
+
+            },
+            {
+              "@class": "4",
+            
+                "#text": "GeForce GTX 1650 Ti Mobile"
+            },
+            {
+              "@class": "4",
+              "#text": "Radeon RX 5500M"
+            },
+            {
+              "@class": "4",
+              
+                "#text": "Radeon Pro 5500M"
+
+            },
+            {
+              "@class": "4",
+              "#text": "Quadro P4000 Max-Q"
+            },
+            {
+              "@class": "4",
+              "#text": "Quadro P3200"
+            },
+            {
+              "@class": "4",
+              "#text": "Radeon RX 580X (Laptop) *"
+            },
+            {
+              "@class": "4",
+              "#text": "Radeon RX 580 (Laptop)"
+            },
+            {
+              "@class": "4",
+              "#text": "GeForce RTX 2050 Mobile"
+            },
+            {
+              "@class": "4",
+              "#text": "GeForce MX570 *"
+            },
+            {
+              "@class": "4",
+              "#text": "Radeon RX 6300M *"
+            },
+            {
+              "@class": "4",
+              "#text": "Radeon Pro 5300M"
+            },
+            {
+              "@class": "4",
+              "#text": "Radeon RX 5300M"
+            },
+            {
+              "@class": "4",
+              
+                "#text": "Quadro P3000"
+            },
+            {
+              "@class": "4",
+            
+                "#text": "GeForce GTX 1650 Mobile"
+            },
+            {
+              "@class": "4",
+            
+                "#text": "GeForce GTX 1060 Max-Q"
+            },
+            {
+              "@class": "4",
+              "#text": "Quadro P3000 Max-Q *"
+            },
+            {
+              "@class": "4",
+              "#text": "GeForce GTX 1650 Ti Max-Q *"
+            },
+            {
+              "@class": "4",
+              "#text": "Quadro T2000 Max-Q *"
+            },
+            {
+              "@class": "4",
+              "#text": "Radeon Pro WX 7100 *"
+            },
+            {
+              "@class": "4",
+              "#text": "Radeon RX 570X (Laptop) *"
+            },
+            {
+              "@class": "4",
+              "#text": "Radeon RX 570 (Laptop) *"
+            },
+            {
+              "@class": "4",
+              "#text": "Radeon RX 470 (Laptop) *"
+            },
+            {
+              "@class": "4",
+              "#text": "GeForce GTX 1650 Max-Q *"
+            },
+            {
+              "@class": "4",
+              "#text": "T1200 Laptop GPU *"
+            },
+            {
+              "@class": "4",
+              "#text": "Quadro T1000 (Laptop) *"
+            },
+            {
+              "@class": "4",
+              "#text": "Quadro T1000 Max-Q *"
+            },
+            {
+              "@class": "4",
+              "#text": "T600 Laptop GPU *"
+            },
+            {
+              "@class": "4",
+              "#text": "T500 Laptop GPU *"
+            },   
+            {
+              "@class": "3",
+              "#text": "Radeon Pro Vega 20"
+            },
+            {
+              "@class": "3",
+              "#text": "GeForce GTX 1050 Ti Mobile"
+            },
+            {
+              "@class": "3",
+              "#text": "GeForce MX550 *"
+            },
+            {
+              "@class": "3",
+              "#text": "Quadro P2000"
+            },
+            {
+              "@class": "3",
+              "#text": "Quadro P2000 Max-Q"
+            },
+            {
+              "@class": "3",
+              "#text": "Quadro M4000M"
+            },
+            {
+              "@class": "3",
+             
+                "#text": "GeForce GTX 970M"
+            },
+            {
+              "@class": "3",
+              "#text": "Radeon 680M *"
+            },
+            {
+              "@class": "3",
+              
+                "#text": "GeForce MX450"
+            },
+            {
+              "@class": "3",
+              "#text": "Radeon R9 M395X"
+            },
+            {
+              "@class": "3",
+              "#text": "GeForce GTX 1050 Ti Max-Q *"
+            },
+            {
+              "@class": "3",
+              "#text": "Radeon Pro Vega 16"
+            },
+           
+            {
+              "@class": "3",
+              "#text": "WX Vega M GL"
+            },
+            {
+              "@class": "3",
+              "#text": "Radeon R9 M485X"
+            },
+            {
+              "@class": "3",
+              "#text": "Quadro M3000M"
+            },
+           
+            {
+              "@class": "3",
+              "#text": "FirePro W7170M"
+            },
+          
+            {
+              "@class": "3",
+              "#text": "GeForce GTX 1050 Max-Q *"
+            },
+            {
+              "@class": "3",
+              "#text": "Radeon Pro WX 4150 *"
+            },
+            {
+              "@class": "3",
+             
+                "#text": "GeForce GTX 965M"
+            },
+            {
+              "@class": "3",
+              "#text": "Radeon RX 560X (Laptop)"
+            },
+            {
+              "@class": "3",
+              "#text": "Radeon RX 560 (Laptop)"
+            },
+            
+           
+            {
+              "@class": "3",
+              "#text": "Quadro P1000"
+            },
+           
+            {
+              "@class": "3",
+              "#text": "Xe MAX"
+            },
+            {
+              "@class": "3",
+              "#text": "Radeon Pro 560X"
+            },
+            {
+              "@class": "3",
+              "#text": "Radeon Pro 560"
+            },
+            {
+              "@class": "3",
+              "#text": "Radeon Pro 460"
+            },
+            {
+              "@class": "3",
+              "#text": "Radeon Pro WX 4130 *"
+            },
+            {
+              "@class": "3",
+              "#text": "Iris Xe G7 96EUs"
+            },
+           
+            {
+              "@class": "3",
+            
+                "#text": "GeForce GTX 960M"
+            },
+            
+            {
+              "@class": "3",
+              "#text": "Quadro P620 *"
+            },
+            {
+              "@class": "3",
+              "#text": "Radeon RX 550X (Laptop)"
+            },
+          
+    
+            {
+              "@class": "3",
+              "#text": "Radeon Pro WX 3200 *"
+            },
+            {
+              "@class": "3",
+              "#text": "Radeon Pro 555X"
+            },
+            {
+              "@class": "3",
+              "#text": "Radeon Pro 555"
+            },
+            {
+              "@class": "3",
+              "#text": "Radeon Pro 455"
+            },
+            {
+              "@class": "3",
+              "#text": "Quadro P600"
+            },
+            {
+              "@class": "3",
+            
+                "#text": "GeForce MX250"
+            },
+            {
+              "@class": "3",
+             
+                "#text": "GeForce MX330"
+            },
+            {
+              "@class": "3",
+                "#text": "GeForce MX150"
+            },
+          
+          
+            {
+              "@class": "3",
+              "#text": "Radeon Pro WX 3100 *"
+            },
+            {
+              "@class": "3",
+            
+                "#text": "GeForce GTX 950M"
+            },
+            {
+              "@class": "3",
+              "#text": "Radeon Pro 450"
+            },
+            {
+              "@class": "3",
+              "#text": "Radeon 630"
+            },
+            {
+              "@class": "3",
+              "#text": "Radeon 540X *"
+            },
+          
+            
+            {
+              "@class": "3",
+              
+                "#text": "GeForce 945M"
+            },
+           
+            {
+              "@class": "3",
+             
+                "#text": "Radeon R9 M470"
+            },
+            {
+              "@class": "3",
+              "#text": "FirePro W5170M *"
+            },
+           
+            {
+              "@class": "3",
+              "#text": "GeForce MX230"
+            },
+         
+            {
+              "@class": "3",
+              "#text": "Radeon R7 M465"
+            },
+          
+            {
+              "@class": "3",
+                "#text": "GeForce MX130"
+            },
+            {
+              "@class": "3 gsl_this_gpu",
+                "#text": "GeForce 940MX"
+            },
+           
+            {
+              "@class": "3",
+              "#text": "Radeon 660M *"
+            },
+            {
+              "@class": "3",
+                "#text": "GeForce 940M"
+            },
+         
+            {
+              "@class": "3",
+              "#text": "GeForce 930MX"
+            },
+            {
+              "@class": "3",
+              "#text": "Quadro M600M"
+            },
+            
+            {
+              "@class": "3",
+              "#text": "Radeon R9 M375"
+            },
+           
+            {
+              "@class": "3",
+              "#text": "Radeon R7 M445"
+            },
+            
+            {
+              "@class": "3",
+              "#text": "Iris Plus Graphics 650"
+            },
+            {
+              "@class": "3",
+                "#text": "GeForce 930M"
+            },
+          
+          
+            {
+              "@class": "3",
+              "#text": "Radeon 625"
+            },
+           
+            {
+              "@class": "3",
+              "#text": "Iris Plus Graphics 645"
+            },
+            {
+              "@class": "3",
+                "#text": "GeForce MX110"
+              
+            },
+            {
+              "@class": "3",
+              "#text": "Iris Plus Graphics 640"
+            },
+            {
+              "@class": "3",
+              "#text": "GeForce 920MX"
+            },
+      
+            {
+              "@class": "3",
+              "#text": "Radeon R7 M360"
+            },
+            {
+              "@class": "3",
+                "#text": "GeForce 920M"
+              
+            },
+          
+            {
+              "@class": "3",
+              "#text": "Radeon 620"
+            },
+           
+            {
+              "@class": "3",
+              "#text": "Radeon R7 M340"
+            },
+        
+            {
+              "@class": "3",
+              "#text": "Radeon 610"
+            },
+            {
+              "@class": "3",
+              "#text": "Vega 6 *"
+            },
+            {
+              "@class": "3",
+              "#text": "Vega 5 *"
+            },
+            {
+              "@class": "3",
+              "#text": "UHD Graphics G1 (Ice Lake 32 EU)"
+            },
+            {
+              "@class": "3",
+              "#text": "UHD Graphics Xe 16EUs (Tiger Lake-H) *"
+            },
+            {
+              "@class": "3",
+              "#text": "UHD Graphics G7 (Lakefield GT2 64 EU)"
+            },
+            {
+              "@class": "3",
+                "#text": "HD Graphics 530"
+            },
+            {
+              "@class": "3",
+              "#text": "Radeon R5 (Bristol Ridge)"
+            },
+            {
+              "@class": "gsl3_el",
+                "#text": "UHD Graphics 620"
+            },
+            {
+              "@class": "3",
+           
+                "#text": "HD Graphics 620"
+            }     
+        ]
+          
+    }
