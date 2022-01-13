@@ -8,6 +8,8 @@ import { ProjectItemComponent } from './page/project-item/project-item.component
 import { ProjectDetailsComponent } from './page/project-details/project-details.component';
 
 import { HomeRoutingModule } from './home.routing';
+import { SteamComponent } from './page/steam/steam.component';
+import { AutocompleteLibModule } from 'angular-ng-autocomplete';
 
 
 @NgModule({
@@ -15,9 +17,10 @@ import { HomeRoutingModule } from './home.routing';
     HomeComponent,
     MyModalComponent,
     ProjectItemComponent,
-    ProjectDetailsComponent
+    ProjectDetailsComponent,
+    SteamComponent
   ],
-  imports: [SharedModule, NgxMasonryModule, HomeRoutingModule],
+  imports: [SharedModule, NgxMasonryModule, HomeRoutingModule, AutocompleteLibModule],
   exports: [],
   providers: [],
   entryComponents: [MyModalComponent]

@@ -16,6 +16,7 @@ import { AuthLayoutComponent } from './layout/auth-layout/auth-layout.component'
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { NgxMasonryModule } from 'ngx-masonry';
+import { SteamService } from './data/service/steam.service';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,9 @@ import { NgxMasonryModule } from 'ngx-masonry';
     
     NgxMasonryModule
   ],
-  providers: [],
+  providers: [
+    SteamService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule {}

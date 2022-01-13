@@ -5,9 +5,10 @@
 }
 #search {
   margin-top: 3rem;
+  margin-left: 15rem;
 }
 #content {
-  margin-top: 12rem;
+  margin-top: 6rem;
 }
 * {
   box-sizing: border-box;
@@ -28,16 +29,17 @@ form.example button {
   float: left;
   width: 20%;
   padding: 10px;
-  background: #2196F3;
+  background: #1f4e61f6;
   color: white;
   font-size: 17px;
-  border: 1px solid grey;
+  border: 1px solid #1f4e61f6;
   border-left: none; /* Prevent double borders */
   cursor: pointer;
 }
 
 form.example button:hover {
-  background: #0b7dda;
+  background: #89bce477;
+  border:1px solid #89bce477;
 }
 
 /* Clear floats */
@@ -46,3 +48,4 @@ form.example::after {
   clear: both;
   display: table;
 }
+
